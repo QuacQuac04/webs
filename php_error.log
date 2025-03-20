@@ -1,0 +1,400 @@
+[16-Mar-2025 11:47:59 Europe/Berlin] Request received: Array
+(
+    [template_id] => 11
+)
+
+[16-Mar-2025 11:47:59 Europe/Berlin] Processing like - UserID: 6, TemplateID: 11
+[16-Mar-2025 11:47:59 Europe/Berlin] Existing like check result: No
+[16-Mar-2025 11:47:59 Europe/Berlin] New like count: 1
+[16-Mar-2025 11:48:02 Europe/Berlin] Request received: Array
+(
+    [template_id] => 10
+)
+
+[16-Mar-2025 11:48:02 Europe/Berlin] Processing like - UserID: 6, TemplateID: 10
+[16-Mar-2025 11:48:02 Europe/Berlin] Existing like check result: No
+[16-Mar-2025 11:48:02 Europe/Berlin] New like count: 1
+[16-Mar-2025 11:48:03 Europe/Berlin] Request received: Array
+(
+    [template_id] => 9
+)
+
+[16-Mar-2025 11:48:04 Europe/Berlin] Processing like - UserID: 6, TemplateID: 9
+[16-Mar-2025 11:48:04 Europe/Berlin] Existing like check result: No
+[16-Mar-2025 11:48:04 Europe/Berlin] New like count: 1
+[16-Mar-2025 11:48:04 Europe/Berlin] Request received: Array
+(
+    [template_id] => 8
+)
+
+[16-Mar-2025 11:48:04 Europe/Berlin] Processing like - UserID: 6, TemplateID: 8
+[16-Mar-2025 11:48:04 Europe/Berlin] Existing like check result: No
+[16-Mar-2025 11:48:04 Europe/Berlin] New like count: 1
+[16-Mar-2025 11:48:06 Europe/Berlin] Request received: Array
+(
+    [template_id] => 6
+)
+
+[16-Mar-2025 11:48:06 Europe/Berlin] Processing like - UserID: 6, TemplateID: 6
+[16-Mar-2025 11:48:06 Europe/Berlin] Existing like check result: No
+[16-Mar-2025 11:48:06 Europe/Berlin] New like count: 1
+[16-Mar-2025 11:48:59 Europe/Berlin] Request received: Array
+(
+    [template_id] => 3
+)
+
+[16-Mar-2025 11:48:59 Europe/Berlin] Processing like - UserID: 6, TemplateID: 3
+[16-Mar-2025 11:48:59 Europe/Berlin] Existing like check result: No
+[16-Mar-2025 11:48:59 Europe/Berlin] New like count: 1
+[16-Mar-2025 11:53:54 Europe/Berlin] Request received: Array
+(
+    [template_id] => 7
+)
+
+[16-Mar-2025 11:53:54 Europe/Berlin] Processing like - UserID: 6, TemplateID: 7
+[16-Mar-2025 11:53:54 Europe/Berlin] Existing like check result: No
+[16-Mar-2025 11:53:54 Europe/Berlin] New like count: 1
+[16-Mar-2025 11:56:55 Europe/Berlin] Request received: Array
+(
+    [template_id] => 3
+)
+
+[16-Mar-2025 11:56:55 Europe/Berlin] Processing like - UserID: 6, TemplateID: 3
+[16-Mar-2025 11:56:55 Europe/Berlin] Existing like check result: Yes
+[16-Mar-2025 11:56:55 Europe/Berlin] New like count: 0
+[16-Mar-2025 11:56:57 Europe/Berlin] Request received: Array
+(
+    [template_id] => 3
+)
+
+[16-Mar-2025 11:56:57 Europe/Berlin] Processing like - UserID: 6, TemplateID: 3
+[16-Mar-2025 11:56:57 Europe/Berlin] Existing like check result: No
+[16-Mar-2025 11:56:57 Europe/Berlin] New like count: 1
+[16-Mar-2025 11:56:58 Europe/Berlin] Request received: Array
+(
+    [template_id] => 1
+)
+
+[16-Mar-2025 11:56:58 Europe/Berlin] Processing like - UserID: 6, TemplateID: 1
+[16-Mar-2025 11:56:58 Europe/Berlin] Existing like check result: No
+[16-Mar-2025 11:56:58 Europe/Berlin] New like count: 1
+[16-Mar-2025 11:56:59 Europe/Berlin] Request received: Array
+(
+    [template_id] => 1
+)
+
+[16-Mar-2025 11:56:59 Europe/Berlin] Processing like - UserID: 6, TemplateID: 1
+[16-Mar-2025 11:56:59 Europe/Berlin] Existing like check result: Yes
+[16-Mar-2025 11:56:59 Europe/Berlin] New like count: 0
+[16-Mar-2025 11:59:52 Europe/Berlin] Request received: Array
+(
+    [template_id] => 10
+)
+
+[16-Mar-2025 11:59:52 Europe/Berlin] Processing like - UserID: 6, TemplateID: 10
+[16-Mar-2025 11:59:52 Europe/Berlin] Existing like check result: Yes
+[16-Mar-2025 11:59:52 Europe/Berlin] New like count: 0
+[16-Mar-2025 11:59:52 Europe/Berlin] Request received: Array
+(
+    [template_id] => 10
+)
+
+[16-Mar-2025 11:59:52 Europe/Berlin] Processing like - UserID: 6, TemplateID: 10
+[16-Mar-2025 11:59:52 Europe/Berlin] Existing like check result: No
+[16-Mar-2025 11:59:52 Europe/Berlin] New like count: 1
+[16-Mar-2025 12:07:46 Europe/Berlin] Request received: Array
+(
+    [template_id] => 2
+)
+
+[16-Mar-2025 12:07:46 Europe/Berlin] Processing like - UserID: 6, TemplateID: 2
+[16-Mar-2025 12:07:46 Europe/Berlin] Existing like check result: No
+[16-Mar-2025 12:07:46 Europe/Berlin] New like count: 1
+[16-Mar-2025 12:18:28 Europe/Berlin] Request received: Array
+(
+    [template_id] => 5
+)
+
+[16-Mar-2025 12:18:28 Europe/Berlin] Processing like - UserID: 6, TemplateID: 5
+[16-Mar-2025 12:18:28 Europe/Berlin] Existing like check result: No
+[16-Mar-2025 12:18:28 Europe/Berlin] New like count: 1
+[16-Mar-2025 12:53:16 Europe/Berlin] Request received: Array
+(
+    [template_id] => 12
+)
+
+[16-Mar-2025 12:53:16 Europe/Berlin] Processing like - UserID: 7, TemplateID: 12
+[16-Mar-2025 12:53:16 Europe/Berlin] Existing like check result: No
+[16-Mar-2025 12:53:16 Europe/Berlin] New like count: 1
+[16-Mar-2025 12:53:18 Europe/Berlin] Request received: Array
+(
+    [template_id] => 12
+)
+
+[16-Mar-2025 12:53:18 Europe/Berlin] Processing like - UserID: 7, TemplateID: 12
+[16-Mar-2025 12:53:18 Europe/Berlin] Existing like check result: Yes
+[16-Mar-2025 12:53:18 Europe/Berlin] New like count: 0
+[16-Mar-2025 12:56:54 Europe/Berlin] Request received: Array
+(
+    [template_id] => 12
+)
+
+[16-Mar-2025 12:56:54 Europe/Berlin] Processing like - UserID: 7, TemplateID: 12
+[16-Mar-2025 12:56:54 Europe/Berlin] Existing like check result: No
+[16-Mar-2025 12:56:54 Europe/Berlin] New like count: 1
+[16-Mar-2025 12:56:59 Europe/Berlin] Request received: Array
+(
+    [template_id] => 12
+)
+
+[16-Mar-2025 12:56:59 Europe/Berlin] Processing like - UserID: 7, TemplateID: 12
+[16-Mar-2025 12:56:59 Europe/Berlin] Existing like check result: Yes
+[16-Mar-2025 12:56:59 Europe/Berlin] New like count: 0
+[16-Mar-2025 13:11:57 Europe/Berlin] Request received: Array
+(
+    [template_id] => 16
+)
+
+[16-Mar-2025 13:11:57 Europe/Berlin] Processing like - UserID: 7, TemplateID: 16
+[16-Mar-2025 13:11:57 Europe/Berlin] Existing like check result: No
+[16-Mar-2025 13:11:57 Europe/Berlin] New like count: 1
+[16-Mar-2025 17:35:00 Europe/Berlin] Request received: Array
+(
+    [template_id] => 19
+)
+
+[16-Mar-2025 17:35:00 Europe/Berlin] Processing like - UserID: 7, TemplateID: 19
+[16-Mar-2025 17:35:00 Europe/Berlin] Existing like check result: No
+[16-Mar-2025 17:35:00 Europe/Berlin] New like count: 1
+[16-Mar-2025 17:40:22 Europe/Berlin] Request received: Array
+(
+    [template_id] => 6
+)
+
+[16-Mar-2025 17:40:22 Europe/Berlin] No user logged in
+[16-Mar-2025 17:46:52 Europe/Berlin] Request received: Array
+(
+    [template_id] => 18
+)
+
+[16-Mar-2025 17:46:52 Europe/Berlin] Processing like - UserID: 1, TemplateID: 18
+[16-Mar-2025 17:46:52 Europe/Berlin] Existing like check result: No
+[16-Mar-2025 17:46:52 Europe/Berlin] New like count: 1
+[16-Mar-2025 17:46:53 Europe/Berlin] Request received: Array
+(
+    [template_id] => 17
+)
+
+[16-Mar-2025 17:46:53 Europe/Berlin] Processing like - UserID: 1, TemplateID: 17
+[16-Mar-2025 17:46:53 Europe/Berlin] Existing like check result: No
+[16-Mar-2025 17:46:53 Europe/Berlin] New like count: 1
+[16-Mar-2025 17:55:40 Europe/Berlin] Request received: Array
+(
+    [template_id] => 7
+)
+
+[16-Mar-2025 17:55:40 Europe/Berlin] No user logged in
+[17-Mar-2025 06:49:00 Europe/Berlin] Request received: Array
+(
+    [template_id] => 16
+)
+
+[17-Mar-2025 06:49:00 Europe/Berlin] Processing like - UserID: 1, TemplateID: 16
+[17-Mar-2025 06:49:00 Europe/Berlin] Existing like check result: No
+[17-Mar-2025 06:49:01 Europe/Berlin] New like count: 2
+[17-Mar-2025 07:21:41 Europe/Berlin] Request received: Array
+(
+    [template_id] => 10
+)
+
+[17-Mar-2025 07:21:41 Europe/Berlin] Processing like - UserID: 1, TemplateID: 10
+[17-Mar-2025 07:21:41 Europe/Berlin] Existing like check result: No
+[17-Mar-2025 07:21:41 Europe/Berlin] New like count: 2
+[17-Mar-2025 07:32:26 Europe/Berlin] Request received: Array
+(
+    [template_id] => 18
+)
+
+[17-Mar-2025 07:32:26 Europe/Berlin] Processing like - UserID: 1, TemplateID: 18
+[17-Mar-2025 07:32:26 Europe/Berlin] Existing like check result: Yes
+[17-Mar-2025 07:32:26 Europe/Berlin] New like count: 0
+[17-Mar-2025 07:32:27 Europe/Berlin] Request received: Array
+(
+    [template_id] => 18
+)
+
+[17-Mar-2025 07:32:27 Europe/Berlin] Processing like - UserID: 1, TemplateID: 18
+[17-Mar-2025 07:32:27 Europe/Berlin] Existing like check result: No
+[17-Mar-2025 07:32:27 Europe/Berlin] New like count: 1
+[17-Mar-2025 07:35:30 Europe/Berlin] Request received: Array
+(
+    [template_id] => 16
+)
+
+[17-Mar-2025 07:35:30 Europe/Berlin] No user logged in
+[17-Mar-2025 07:35:36 Europe/Berlin] Request received: Array
+(
+    [template_id] => 16
+)
+
+[17-Mar-2025 07:35:36 Europe/Berlin] Processing like - UserID: 6, TemplateID: 16
+[17-Mar-2025 07:35:36 Europe/Berlin] Existing like check result: No
+[17-Mar-2025 07:35:36 Europe/Berlin] New like count: 3
+[17-Mar-2025 07:38:44 Europe/Berlin] Request received: Array
+(
+    [template_id] => 18
+)
+
+[17-Mar-2025 07:38:44 Europe/Berlin] Processing like - UserID: 6, TemplateID: 18
+[17-Mar-2025 07:38:44 Europe/Berlin] Existing like check result: No
+[17-Mar-2025 07:38:44 Europe/Berlin] New like count: 2
+[17-Mar-2025 07:40:39 Europe/Berlin] Request received: Array
+(
+    [template_id] => 17
+)
+
+[17-Mar-2025 07:40:39 Europe/Berlin] Processing like - UserID: 6, TemplateID: 17
+[17-Mar-2025 07:40:39 Europe/Berlin] Existing like check result: No
+[17-Mar-2025 07:40:39 Europe/Berlin] New like count: 2
+[17-Mar-2025 07:40:44 Europe/Berlin] Request received: Array
+(
+    [template_id] => 11
+)
+
+[17-Mar-2025 07:40:44 Europe/Berlin] Processing like - UserID: 6, TemplateID: 11
+[17-Mar-2025 07:40:44 Europe/Berlin] Existing like check result: Yes
+[17-Mar-2025 07:40:44 Europe/Berlin] New like count: 0
+[17-Mar-2025 07:55:30 Europe/Berlin] Request received: Array
+(
+    [template_id] => 17
+)
+
+[17-Mar-2025 07:55:30 Europe/Berlin] Processing like - UserID: 6, TemplateID: 17
+[17-Mar-2025 07:55:30 Europe/Berlin] Existing like check result: Yes
+[17-Mar-2025 07:55:30 Europe/Berlin] New like count: 1
+[17-Mar-2025 07:55:31 Europe/Berlin] Request received: Array
+(
+    [template_id] => 17
+)
+
+[17-Mar-2025 07:55:31 Europe/Berlin] Processing like - UserID: 6, TemplateID: 17
+[17-Mar-2025 07:55:31 Europe/Berlin] Existing like check result: No
+[17-Mar-2025 07:55:31 Europe/Berlin] New like count: 2
+[17-Mar-2025 07:55:34 Europe/Berlin] Request received: Array
+(
+    [template_id] => 19
+)
+
+[17-Mar-2025 07:55:34 Europe/Berlin] Processing like - UserID: 6, TemplateID: 19
+[17-Mar-2025 07:55:34 Europe/Berlin] Existing like check result: No
+[17-Mar-2025 07:55:34 Europe/Berlin] New like count: 2
+[17-Mar-2025 08:18:30 Europe/Berlin] Request received: Array
+(
+    [template_id] => 10
+)
+
+[17-Mar-2025 08:18:30 Europe/Berlin] No user logged in
+[17-Mar-2025 08:33:01 Europe/Berlin] Request received: Array
+(
+    [template_id] => 16
+)
+
+[17-Mar-2025 08:33:01 Europe/Berlin] Processing like - UserID: 6, TemplateID: 16
+[17-Mar-2025 08:33:01 Europe/Berlin] Existing like check result: Yes
+[17-Mar-2025 08:33:01 Europe/Berlin] New like count: 2
+[17-Mar-2025 08:33:02 Europe/Berlin] Request received: Array
+(
+    [template_id] => 16
+)
+
+[17-Mar-2025 08:33:02 Europe/Berlin] Processing like - UserID: 6, TemplateID: 16
+[17-Mar-2025 08:33:02 Europe/Berlin] Existing like check result: No
+[17-Mar-2025 08:33:02 Europe/Berlin] New like count: 3
+[17-Mar-2025 08:44:01 Europe/Berlin] Request received: Array
+(
+    [template_id] => 8
+)
+
+[17-Mar-2025 08:44:01 Europe/Berlin] Processing like - UserID: 6, TemplateID: 8
+[17-Mar-2025 08:44:01 Europe/Berlin] Existing like check result: Yes
+[17-Mar-2025 08:44:01 Europe/Berlin] New like count: 0
+[17-Mar-2025 11:12:24 Europe/Berlin] Request received: Array
+(
+    [template_id] => 1
+)
+
+[17-Mar-2025 11:12:24 Europe/Berlin] Processing like - UserID: 7, TemplateID: 1
+[17-Mar-2025 11:12:24 Europe/Berlin] Existing like check result: No
+[17-Mar-2025 11:12:24 Europe/Berlin] New like count: 1
+[17-Mar-2025 11:12:26 Europe/Berlin] Request received: Array
+(
+    [template_id] => 8
+)
+
+[17-Mar-2025 11:12:26 Europe/Berlin] Processing like - UserID: 7, TemplateID: 8
+[17-Mar-2025 11:12:26 Europe/Berlin] Existing like check result: No
+[17-Mar-2025 11:12:26 Europe/Berlin] New like count: 1
+[17-Mar-2025 11:12:30 Europe/Berlin] Request received: Array
+(
+    [template_id] => 10
+)
+
+[17-Mar-2025 11:12:30 Europe/Berlin] Processing like - UserID: 7, TemplateID: 10
+[17-Mar-2025 11:12:30 Europe/Berlin] Existing like check result: No
+[17-Mar-2025 11:12:30 Europe/Berlin] New like count: 3
+[17-Mar-2025 11:12:54 Europe/Berlin] Request received: Array
+(
+    [template_id] => 3
+)
+
+[17-Mar-2025 11:12:54 Europe/Berlin] Processing like - UserID: 7, TemplateID: 3
+[17-Mar-2025 11:12:54 Europe/Berlin] Existing like check result: No
+[17-Mar-2025 11:12:54 Europe/Berlin] New like count: 2
+[17-Mar-2025 14:57:39 Europe/Berlin] Request received: Array
+(
+    [template_id] => 15
+)
+
+[17-Mar-2025 14:57:39 Europe/Berlin] Processing like - UserID: 6, TemplateID: 15
+[17-Mar-2025 14:57:39 Europe/Berlin] Existing like check result: No
+[17-Mar-2025 14:57:39 Europe/Berlin] New like count: 1
+[17-Mar-2025 14:57:42 Europe/Berlin] Request received: Array
+(
+    [template_id] => 11
+)
+
+[17-Mar-2025 14:57:42 Europe/Berlin] Processing like - UserID: 6, TemplateID: 11
+[17-Mar-2025 14:57:42 Europe/Berlin] Existing like check result: No
+[17-Mar-2025 14:57:42 Europe/Berlin] New like count: 1
+[19-Mar-2025 11:22:24 Europe/Berlin] Request received: Array
+(
+    [template_id] => 29
+)
+
+[19-Mar-2025 11:22:24 Europe/Berlin] Processing like - UserID: 1, TemplateID: 29
+[19-Mar-2025 11:22:24 Europe/Berlin] Existing like check result: No
+[19-Mar-2025 11:22:24 Europe/Berlin] New like count: 1
+[19-Mar-2025 11:23:24 Europe/Berlin] Request received: Array
+(
+    [template_id] => 29
+)
+
+[19-Mar-2025 11:23:25 Europe/Berlin] Processing like - UserID: 6, TemplateID: 29
+[19-Mar-2025 11:23:25 Europe/Berlin] Existing like check result: No
+[19-Mar-2025 11:23:25 Europe/Berlin] New like count: 2
+[19-Mar-2025 16:02:31 Europe/Berlin] Request received: Array
+(
+    [template_id] => 15
+)
+
+[19-Mar-2025 16:02:31 Europe/Berlin] Processing like - UserID: 1, TemplateID: 15
+[19-Mar-2025 16:02:31 Europe/Berlin] Existing like check result: No
+[19-Mar-2025 16:02:31 Europe/Berlin] New like count: 2
+[20-Mar-2025 05:27:56 Europe/Berlin] Request received: Array
+(
+    [template_id] => 19
+)
+
+[20-Mar-2025 05:27:56 Europe/Berlin] Processing like - UserID: 1, TemplateID: 19
+[20-Mar-2025 05:27:56 Europe/Berlin] Existing like check result: No
+[20-Mar-2025 05:27:56 Europe/Berlin] New like count: 3

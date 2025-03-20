@@ -1,0 +1,46 @@
+<mxfile host="65bd71144e">
+    <diagram name="Interface Layout" id="interface-diagram">
+        <mxGraphModel dx="190" dy="1018" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="main_layout" value="Main Layout" style="swimlane;startSize=30;horizontal=0;childLayout=stackLayout;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="40" width="1000" height="700" as="geometry"/>
+                </mxCell>
+                <mxCell id="sidebar" value="Sidebar Menu" style="swimlane;startSize=30;fillColor=#d5e8d4;strokeColor=#82b366;" parent="main_layout" vertex="1">
+                    <mxGeometry width="200" height="700" as="geometry"/>
+                </mxCell>
+                <mxCell id="sidebar_items" value="- Logo&#xa;- Trang chủ&#xa;- Mẫu thiết kế&#xa;- Thiết kế của tôi&#xa;- AI Design&#xa;- Thùng rác&#xa;- Cài đặt&#xa;- Trợ giúp" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="sidebar" vertex="1">
+                    <mxGeometry y="30" width="200" height="160" as="geometry"/>
+                </mxCell>
+                <mxCell id="header" value="Header" style="swimlane;startSize=30;fillColor=#fff2cc;strokeColor=#d6b656;" parent="main_layout" vertex="1">
+                    <mxGeometry x="200" width="800" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="header_components" value="Left: Menu toggle, Logo&#xa;Center: Search box&#xa;Right: Design button, User menu/Auth buttons" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="header" vertex="1">
+                    <mxGeometry y="30" width="800" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="main_content" value="Main Content" style="swimlane;startSize=30;fillColor=#f8cecc;strokeColor=#b85450;" parent="main_layout" vertex="1">
+                    <mxGeometry x="200" y="80" width="800" height="620" as="geometry"/>
+                </mxCell>
+                <mxCell id="hero_section" value="Hero Section" style="swimlane;startSize=30;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="main_content" vertex="1">
+                    <mxGeometry x="20" y="40" width="760" height="160" as="geometry"/>
+                </mxCell>
+                <mxCell id="hero_content" value="- Heading: &#39;Bạn muốn thiết kế gì?&#39;&#xa;- Design Categories Grid (8 categories)&#xa;  + Doanh nghiệp, Giáo dục, Shopping, Games&#xa;  + Mạng xã hội, Travel, Design, Xem thêm" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="hero_section" vertex="1">
+                    <mxGeometry y="30" width="760" height="130" as="geometry"/>
+                </mxCell>
+                <mxCell id="features_section" value="Features Section" style="swimlane;startSize=30;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="main_content" vertex="1">
+                    <mxGeometry x="20" y="220" width="760" height="160" as="geometry"/>
+                </mxCell>
+                <mxCell id="features_content" value="Feature Cards Grid:&#xa;1. Tạo Website Bằng AI&#xa;2. Thư Viện Mẫu&#xa;3. Tùy Chỉnh Dễ Dàng" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="features_section" vertex="1">
+                    <mxGeometry y="30" width="760" height="130" as="geometry"/>
+                </mxCell>
+                <mxCell id="templates_section" value="Templates Section" style="swimlane;startSize=30;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="main_content" vertex="1">
+                    <mxGeometry x="20" y="400" width="760" height="200" as="geometry"/>
+                </mxCell>
+                <mxCell id="templates_content" value="- Heading: &#39;Khám Phá Tác Phẩm Cộng Đồng&#39;&#xa;- Filters: Sắp xếp theo&#xa;- Template Grid&#xa;  + Template cards with image, title, author&#xa;  + Like/Save functionality&#xa;  + Preview option" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="templates_section" vertex="1">
+                    <mxGeometry y="30" width="760" height="170" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

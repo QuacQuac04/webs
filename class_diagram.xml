@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ClassDiagram>
+    <!-- User Class -->
+    <Class name="User">
+        <Attributes>
+            <Attribute name="UserID" type="int" visibility="private"/>
+            <Attribute name="Username" type="string" visibility="private"/>
+            <Attribute name="Password" type="string" visibility="private"/>
+            <Attribute name="Email" type="string" visibility="private"/>
+            <Attribute name="Role" type="string" visibility="private"/>
+            <Attribute name="JoinDate" type="datetime" visibility="private"/>
+            <Attribute name="Status" type="string" visibility="private"/>
+            <Attribute name="Avatar" type="string" visibility="private"/>
+            <Attribute name="Bio" type="text" visibility="private"/>
+            <Attribute name="TwoFactorEnabled" type="boolean" visibility="private"/>
+            <Attribute name="NotificationSettings" type="json" visibility="private"/>
+            <Attribute name="AppearanceSettings" type="json" visibility="private"/>
+            <Attribute name="CurrentPlan" type="string" visibility="private"/>
+        </Attributes>
+        <Methods>
+            <Method name="register()" visibility="public"/>
+            <Method name="login()" visibility="public"/>
+            <Method name="logout()" visibility="public"/>
+            <Method name="updateProfile()" visibility="public"/>
+            <Method name="updateSettings()" visibility="public"/>
+            <Method name="followUser()" visibility="public"/>
+            <Method name="unfollowUser()" visibility="public"/>
+        </Methods>
+    </Class>
+
+    <!-- Template Class -->
+    <Class name="Template">
+        <Attributes>
+            <Attribute name="TemplateID" type="int" visibility="private"/>
+            <Attribute name="UserID" type="int" visibility="private"/>
+            <Attribute name="TemplateName" type="string" visibility="private"/>
+            <Attribute name="Description" type="string" visibility="private"/>
+            <Attribute name="PreviewImage" type="string" visibility="private"/>
+            <Attribute name="Price" type="decimal" visibility="private"/>
+            <Attribute name="Status" type="string" visibility="private"/>
+            <Attribute name="CreatedDate" type="datetime" visibility="private"/>
+            <Attribute name="ApprovedDate" type="datetime" visibility="private"/>
+            <Attribute name="Styles" type="json" visibility="private"/>
+            <Attribute name="LastModified" type="datetime" visibility="private"/>
+            <Attribute name="AutoSaved" type="boolean" visibility="private"/>
+            <Attribute name="HTMLContent" type="text" visibility="private"/>
+            <Attribute name="CSSContent" type="text" visibility="private"/>
+            <Attribute name="JSContent" type="text" visibility="private"/>
+            <Attribute name="Category" type="string" visibility="private"/>
+            <Attribute name="Views" type="int" visibility="private"/>
+            <Attribute name="Likes" type="int" visibility="private"/>
+        </Attributes>
+        <Methods>
+            <Method name="create()" visibility="public"/>
+            <Method name="edit()" visibility="public"/>
+            <Method name="delete()" visibility="public"/>
+            <Method name="preview()" visibility="public"/>
+            <Method name="autoSave()" visibility="public"/>
+            <Method name="like()" visibility="public"/>
+            <Method name="unlike()" visibility="public"/>
+        </Methods>
+    </Class>
+
+    <!-- Purchase Class -->
+    <Class name="Purchase">
+        <Attributes>
+            <Attribute name="PurchaseID" type="int" visibility="private"/>
+            <Attribute name="UserID" type="int" visibility="private"/>
+            <Attribute name="TemplateID" type="int" visibility="private"/>
+            <Attribute name="PurchaseDate" type="datetime" visibility="private"/>
+            <Attribute name="Amount" type="decimal" visibility="private"/>
+        </Attributes>
+        <Methods>
+            <Method name="create()" visibility="public"/>
+            <Method name="getPurchaseHistory()" visibility="public"/>
+        </Methods>
+    </Class>
+
+    <!-- Review Class -->
+    <Class name="Review">
+        <Attributes>
+            <Attribute name="ReviewID" type="int" visibility="private"/>
+            <Attribute name="TemplateID" type="int" visibility="private"/>
+            <Attribute name="UserID" type="int" visibility="private"/>
+            <Attribute name="Rating" type="int" visibility="private"/>
+            <Attribute name="Comment" type="string" visibility="private"/>
+            <Attribute name="ReviewDate" type="datetime" visibility="private"/>
+        </Attributes>
+        <Methods>
+            <Method name="create()" visibility="public"/>
+            <Method name="update()" visibility="public"/>
+            <Method name="delete()" visibility="public"/>
+        </Methods>
+    </Class>
+
+    <!-- CommunityDesign Class -->
+    <Class name="CommunityDesign">
+        <Attributes>
+            <Attribute name="DesignID" type="int" visibility="private"/>
+            <Attribute name="UserID" type="int" visibility="private"/>
+            <Attribute name="TemplateID" type="int" visibility="private"/>
+            <Attribute name="DesignName" type="string" visibility="private"/>
+            <Attribute name="Description" type="string" visibility="private"/>
+            <Attribute name="PreviewImage" type="string" visibility="private"/>
+            <Attribute name="Likes" type="int" visibility="private"/>
+            <Attribute name="Views" type="int" visibility="private"/>
+            <Attribute name="Comments" type="int" visibility="private"/>
+            <Attribute name="CreatedDate" type="datetime" visibility="private"/>
+        </Attributes>
+        <Methods>
+            <Method name="create()" visibility="public"/>
+            <Method name="update()" visibility="public"/>
+            <Method name="delete()" visibility="public"/>
+            <Method name="like()" visibility="public"/>
+            <Method name="comment()" visibility="public"/>
+        </Methods>
+    </Class>
+
+    <!-- Database Class -->
+    <Class name="Database">
+        <Attributes>
+            <Attribute name="conn" type="PDO" visibility="private"/>
+        </Attributes>
+        <Methods>
+            <Method name="connect()" visibility="public"/>
+            <Method name="disconnect()" visibility="public"/>
+            <Method name="query()" visibility="public"/>
+        </Methods>
+    </Class>
+
+    <!-- Relationships -->
+    <Relationships>
+        <Relationship from="User" to="Template" type="one-to-many"/>
+        <Relationship from="User" to="Purchase" type="one-to-many"/>
+        <Relationship from="User" to="Review" type="one-to-many"/>
+        <Relationship from="User" to="CommunityDesign" type="one-to-many"/>
+        <Relationship from="Template" to="Purchase" type="one-to-many"/>
+        <Relationship from="Template" to="Review" type="one-to-many"/>
+        <Relationship from="Template" to="CommunityDesign" type="one-to-many"/>
+        <Relationship from="Database" to="User" type="one-to-many"/>
+        <Relationship from="Database" to="Template" type="one-to-many"/>
+        <Relationship from="Database" to="Purchase" type="one-to-many"/>
+        <Relationship from="Database" to="Review" type="one-to-many"/>
+        <Relationship from="Database" to="CommunityDesign" type="one-to-many"/>
+    </Relationships>
+</ClassDiagram> 
